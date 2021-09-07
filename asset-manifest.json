@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.87b3b55b.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.a67319fa.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.a67319fa.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.d7ae6c6e.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.d7ae6c6e.js.map",
+    "static/js/2.108548b7.chunk.js": "/portfolio-website/static/js/2.108548b7.chunk.js",
+    "static/js/2.108548b7.chunk.js.map": "/portfolio-website/static/js/2.108548b7.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/main.87b3b55b.chunk.css.map": "/portfolio-website/static/css/main.87b3b55b.chunk.css.map",
+    "static/js/2.108548b7.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.108548b7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio-website/static/media/intrepid.fb73b295.ttf",
+    "static/media/discoScreenshot.9c062eb9.png": "/portfolio-website/static/media/discoScreenshot.9c062eb9.png",
+    "static/media/flower2.d6a81ca7.png": "/portfolio-website/static/media/flower2.d6a81ca7.png",
+    "static/media/headshot1.eb6f6c45.png": "/portfolio-website/static/media/headshot1.eb6f6c45.png",
+    "static/media/lostSoulCover.166e0f07.png": "/portfolio-website/static/media/lostSoulCover.166e0f07.png",
+    "static/media/mech.94cb67ae.png": "/portfolio-website/static/media/mech.94cb67ae.png",
+    "static/media/necromancer.f7df4d9c.png": "/portfolio-website/static/media/necromancer.f7df4d9c.png",
+    "static/media/neonNightmareCover.94ea74c7.png": "/portfolio-website/static/media/neonNightmareCover.94ea74c7.png",
+    "static/media/photo1.b74c81ab.JPG": "/portfolio-website/static/media/photo1.b74c81ab.JPG",
+    "static/media/photo2.6500f1d1.JPG": "/portfolio-website/static/media/photo2.6500f1d1.JPG",
+    "static/media/photo3.9e73acbf.JPG": "/portfolio-website/static/media/photo3.9e73acbf.JPG",
+    "static/media/plant1.118bdd3b.png": "/portfolio-website/static/media/plant1.118bdd3b.png",
+    "static/media/portfolioScreenshot.22bd4f2e.png": "/portfolio-website/static/media/portfolioScreenshot.22bd4f2e.png",
+    "static/media/rebirth.062458e8.png": "/portfolio-website/static/media/rebirth.062458e8.png",
+    "static/media/returnCover.66d15645.png": "/portfolio-website/static/media/returnCover.66d15645.png",
+    "static/media/returnScreenshot.3c9c8e95.png": "/portfolio-website/static/media/returnScreenshot.3c9c8e95.png",
+    "static/media/test.66a0d130.png": "/portfolio-website/static/media/test.66a0d130.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7ae6c6e.js",
+    "static/js/2.108548b7.chunk.js",
+    "static/css/main.87b3b55b.chunk.css",
+    "static/js/main.a67319fa.chunk.js"
+  ]
+}
