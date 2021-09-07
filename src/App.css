@@ -210,11 +210,30 @@ h2, p{
 .navbar {
   width: 100%;
   position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--color-white);
   z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.navbar-left {
+  justify-content: space-between !important;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nav-links-show {
+  display: flex !important; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .nav-link {
@@ -235,23 +254,70 @@ h2, p{
   background-color: var(--color-purple);
 }
 
+.nav-button {
+  display: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 1.1rem;
+  margin: 0;
+  color: var(--color-white);
+  background-color: var(--color-purple);
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  color: var(--color-purple);
+  background-color: var(--color-white);
+}
+
 @media (max-width: 875px) {
   .nav-link {
     font-size: 2.2vw;
   }
 }
 
-@media (max-width: 560px) {
+@media (min-width: 560px) {
   .navbar {
-    display: none;
+    justify-content: center !important;
+  }
+  .nav-links-show {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
+
+@media (max-width: 560px) {
+  .navbar {
+    justify-content: flex-end;
+  }
+  .nav-button {
+    display: block;
+  }
+  .nav-links-container {
+    display: none;
+  }
+  .nav-link {
+    font-weight: bold;
+    display: block;
+    font-size: 1.3rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    color: var(--color-purple);
+    transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  }
+}
+
+
 
 /* NavBar End */
 
 /* Main Start */
 .main {
-  max-width: 1600px;
+  max-width: 1400px;
   padding-left: auto;
   padding-right: auto;
   margin-left: auto;
@@ -274,7 +340,6 @@ h2, p{
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -370,7 +435,6 @@ h2, p{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   padding: 320px 140px 320px 140px;
   display: flex;
   flex-direction: column;
