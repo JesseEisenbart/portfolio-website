@@ -10,16 +10,21 @@ const NavBar = () => {
         setShowNav(true);
       }
     }
+
+    function hideNav() {
+        setShowNav(false); 
+    }
     return (
         <div className={`navbar ${showNav ? "navbar-left" : "navbar-normal"}`}>
             <div className={`nav-links-container ${showNav ? "nav-links-show" : "nav-links-hide"}`}>
-                <Link className="nav-link" to="about" spy={true} smooth={true}>ABOUT</Link>
-                <Link className="nav-link" to="webdev" spy={true} smooth={true}>WEB DEV</Link>
-                <Link className="nav-link" to="game" spy={true} smooth={true}>GAME DEV</Link>
-                <Link className="nav-link" to="art" spy={true} smooth={true}>ART</Link>
-                <Link className="nav-link" to="photos" spy={true} smooth={true}>PHOTOGRAPHY</Link>
+                <Link onClick={hideNav} className="nav-link" to="about" spy={true} smooth={true}>ABOUT</Link>
+                <Link onClick={hideNav} className="nav-link" to="webdev" spy={true} smooth={true}>WEB DEV</Link>
+                <Link onClick={hideNav} className="nav-link" to="game" spy={true} smooth={true}>GAME DEV</Link>
+                <Link onClick={hideNav} className="nav-link" to="art" spy={true} smooth={true}>ART</Link>
+                <Link onClick={hideNav} className="nav-link" to="photos" spy={true} smooth={true}>PHOTOGRAPHY</Link>
+                <Link onClick={hideNav} className="nav-link" to="contact" spy={true} smooth={true}>CONTACT</Link>
             </div>
-            <div onClick={toggleNav}><i className="fas fa-bars nav-button"></i></div>
+            <div onClick={toggleNav} className={`nav-button ${showNav ? "nav-button-active" : ""}`}><i className="fas fa-bars"></i></div>
         </div>
     )
 }

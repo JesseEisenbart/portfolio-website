@@ -108,10 +108,10 @@ h2, p{
     max-width:none;
   }  
   .info-container {
-    padding: 9vw 12vw 9vw 12vw;
+    padding: 11vw 12vw 11vw 12vw;
   }
   .info-container-last {
-    padding: 9vw 12vw 9vw 12vw;
+    padding: 11vw 12vw 11vw 12vw;
   }
 }
 
@@ -259,18 +259,18 @@ h2, p{
   font-weight: bold;
   font-size: 1.1rem;
   padding: 1.1rem;
-  margin: 0;
   color: var(--color-white);
   background-color: var(--color-purple);
   transition: color 0.2s ease-in, background-color 0.2s ease-in;
-  justify-self: flex-end;
-  margin-left: auto;
+}
+
+.nav-button-active {
+  color: var(--color-purple);
+  background-color: var(--color-white);
 }
 
 .nav-button:hover {
   cursor: pointer;
-  color: var(--color-purple);
-  background-color: var(--color-white);
 }
 
 @media (max-width: 875px) {
@@ -310,8 +310,6 @@ h2, p{
     transition: color 0.2s ease-in, background-color 0.2s ease-in;
   }
 }
-
-
 
 /* NavBar End */
 
@@ -363,7 +361,7 @@ h2, p{
 
 @media (max-width: 1250px) {
   .welcome {
-    height: 100vw;
+    height: 150vw;
   }
   .welcome h1 {
     font-size: 10vw;
