@@ -4,7 +4,7 @@ import About from "./About";
 import InfoSection from "./InfoSection"
 import Contact from "./Contact"
 import Footer from "./Footer"
-import plant1 from "../images/plant1.png";
+import headshot from "../images/headshot.JPG";
 import returnScreenshot from "../images/returnScreenshot.png";
 import discoScreenshot from "../images/discoScreenshot.png";
 import portfolioScreenshot from "../images/portfolioScreenshot.png";
@@ -42,8 +42,13 @@ const Main = () => {
                             </p>
                     }}
                     infoProjects={[
-
+                        {
+                            img: headshot,
+                            h2: <h2>Jesse Eisenbart</h2>,
+                            link: "https://www.linkedin.com/in/jesse-eisenbart-4b79b0180/",          
+                        },
                     ]}
+                    first={true}
                     last={false}
                 />
             </div>
@@ -77,6 +82,7 @@ const Main = () => {
                             link: "https://jesseeisenbart.github.io/return-landing-page/",
                         },
                     ]}
+                    first={false}
                     last={false}
                 />
             </div>
@@ -110,6 +116,7 @@ const Main = () => {
                             link: "https://deadunicorngames.itch.io/neon-nightmare/",
                         },
                     ]}
+                    first={false}
                     last={false}
                 />
             </div>
@@ -145,6 +152,7 @@ const Main = () => {
                             link: "https://twitter.com/DeadUnicornYYC/status/1351960182176190464",
                         },
                     ]}
+                    first={false}
                     last={false}
                 />
             </div>
@@ -179,6 +187,7 @@ const Main = () => {
                             link: "https://www.instagram.com/ironbeardphotography/",
                         },
                     ]}
+                    first={false}
                     last={true}
                 />
             </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const InfoSection = ({ infoBackground, infoText, infoProjects, last }) => {
+const InfoSection = ({ infoBackground, infoText, infoProjects, last, first }) => {
     return (
-        <div className={`info-container ${last ? "info-container-last" : ""}`} style={infoBackground !== undefined ? { backgroundImage: `url(${infoBackground})` } : {} }>
+        <div className={`info-container ${last ? "info-container-last" : ""} ${first ? "info-container-first" : ""}`} style={infoBackground !== undefined ? { backgroundImage: `url(${infoBackground})` } : {} }>
             <div className="info">
                 <div className={`info-text-section ${infoBackground !== undefined ? "info-color-white" : "info-color-purple"}`}>
                     {infoText.h1}
