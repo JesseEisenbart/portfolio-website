@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.46f255ab.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.577f9d09.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.577f9d09.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.3b55f43c.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.6aa57313.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.6aa57313.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.d7ae6c6e.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.d7ae6c6e.js.map",
     "static/js/2.f5fa4a1b.chunk.js": "/portfolio-website/static/js/2.f5fa4a1b.chunk.js",
     "static/js/2.f5fa4a1b.chunk.js.map": "/portfolio-website/static/js/2.f5fa4a1b.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "static/css/main.46f255ab.chunk.css.map": "/portfolio-website/static/css/main.46f255ab.chunk.css.map",
+    "static/css/main.3b55f43c.chunk.css.map": "/portfolio-website/static/css/main.3b55f43c.chunk.css.map",
     "static/js/2.f5fa4a1b.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.f5fa4a1b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfolio-website/static/media/intrepid.fb73b295.ttf",
+    "static/media/App.css": "/portfolio-website/static/media/Axis-Extrabold.95bd71da.otf",
     "static/media/discoScreenshot.9c062eb9.png": "/portfolio-website/static/media/discoScreenshot.9c062eb9.png",
     "static/media/flower2.d6a81ca7.png": "/portfolio-website/static/media/flower2.d6a81ca7.png",
     "static/media/headshot.b23a9845.JPG": "/portfolio-website/static/media/headshot.b23a9845.JPG",
-    "static/media/headshot1.eb6f6c45.png": "/portfolio-website/static/media/headshot1.eb6f6c45.png",
     "static/media/lostSoulCover.166e0f07.png": "/portfolio-website/static/media/lostSoulCover.166e0f07.png",
     "static/media/mech.94cb67ae.png": "/portfolio-website/static/media/mech.94cb67ae.png",
     "static/media/necromancer.f7df4d9c.png": "/portfolio-website/static/media/necromancer.f7df4d9c.png",
@@ -31,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.d7ae6c6e.js",
     "static/js/2.f5fa4a1b.chunk.js",
-    "static/css/main.46f255ab.chunk.css",
-    "static/js/main.577f9d09.chunk.js"
+    "static/css/main.3b55f43c.chunk.css",
+    "static/js/main.6aa57313.chunk.js"
   ]
 }
