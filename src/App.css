@@ -8,11 +8,6 @@
   src: local('Axis-Extrabold'), url(./fonts/Axis-Extrabold.otf) format('opentype');
 }
 
-@font-face {
-  font-family: 'intrepid';
-  src: local('intrepid'), url(./fonts/intrepid.ttf) format('truetype');
-}
-
 /* Root */
 :root {
   --color-purple: #160e19;
@@ -24,10 +19,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-html {
-  
 }
 
 body {
@@ -46,7 +37,6 @@ a {
 h2, p{
   font-family: "Roboto";
 }
-
 /* Elements End */
 
 /* Info Start */
@@ -155,7 +145,6 @@ h2, p{
 /* Info End */
 
 /* Projects Start */
-
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -206,7 +195,6 @@ h2, p{
 .project:hover {
   transform: scale(1.1);
 }
-
 /* Projects End */
 
 
@@ -314,7 +302,6 @@ h2, p{
     transition: color 0.2s ease-in, background-color 0.2s ease-in;
   }
 }
-
 /* NavBar End */
 
 /* Main Start */
@@ -327,7 +314,6 @@ h2, p{
   z-index: 99;
   position: relative;
 }
-
 /* Main End */
 
 /* Welcome Start */
@@ -374,7 +360,6 @@ h2, p{
     font-size: 5vw;
   }
 }
-
 /* Welcome End */
 
 /* Contact Start */
@@ -456,11 +441,9 @@ h2, p{
     font-size: 12vw;
   }
 }
-
 /* Contact End */
 
 /* Footer Start */
-
 .footer {
   font-weight: 600;
   display: flex;
@@ -469,5 +452,4 @@ h2, p{
   height: 80px;
   background-color: var(--color-white);
 }
-
 /* Footer End */

@@ -4,7 +4,7 @@ import { useState } from "react";
 const NavBar = () => {
     const [showNav, setShowNav] = useState(false);
     function toggleNav() {
-      if (showNav == true) {
+      if (showNav === true) {
         setShowNav(false);
       } else {
         setShowNav(true);
