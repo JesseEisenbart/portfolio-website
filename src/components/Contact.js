@@ -3,7 +3,7 @@ import flower2 from "../images/flower2.png";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <section className="contact">
             <div className="contact-img" style={{ backgroundImage: `url(${flower2})` }}>
                 <div className="contact-inner">
                     <div className="contact-text">
@@ -20,9 +20,8 @@ const Contact = () => {
                         
                     </div>
                 </div>
-            </div>
-            
-        </div>
+            </div>           
+        </section>
     )
 }
 

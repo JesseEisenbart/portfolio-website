@@ -1,6 +1,5 @@
 import React from 'react'
 import Welcome from "./Welcome";
-import About from "./About";
 import InfoSection from "./InfoSection"
 import Contact from "./Contact"
 import Footer from "./Footer"
